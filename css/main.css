@@ -1,4 +1,10 @@
-
+body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 
 body {
   background-color: #f2f2f2;
@@ -147,13 +153,14 @@ a:after {
 
 /* Header Wrap */
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: 60px;
-	padding-top:140px;
+	background: url(../img/header-bg.JPEG) no-repeat center top;
+	margin-top: 0px;
+	
+	padding-top:0px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 1000px;
+	height:100%
 	width: 100%;
 	
     -webkit-background-size: 100%;
